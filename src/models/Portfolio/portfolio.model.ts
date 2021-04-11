@@ -6,7 +6,7 @@ export interface IPortfolio extends Document {
     amount_coins: number,
     purchase_price: number,
     current_price: number,
-    total_value: number,
+    total_value: number
 }
 
 export const portfolioSchema = new Schema({
